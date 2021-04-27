@@ -26,7 +26,7 @@ class App(tk.Tk):
         self.intro_label.config(font=('Courier', 15, 'bold'))
 
         self.date_label = Label(self,
-                                text=f"Date : {self.currency_converter.data['date']}",
+                                text=f"Date : {self.currency_converter.data['date']}\nRates supplied by ECB",
                                 relief=tk.GROOVE, borderwidth=5)
 
         self.intro_label.place(relx=0.5, rely=0.1, anchor=CENTER)
