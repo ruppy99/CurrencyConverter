@@ -21,7 +21,7 @@ class App(tk.Tk):
         self.geometry("500x200")
 
         # Label
-        self.intro_label = Label(self, text='Real Time Currency Convertor', fg='blue', relief=tk.RAISED,
+        self.intro_label = Label(self, text='Currency Converter', fg='blue', relief=tk.RAISED,
                                  borderwidth=3)
         self.intro_label.config(font=('Courier', 15, 'bold'))
 
